@@ -1,0 +1,30 @@
+.news-search-input {
+    margin: 4rem;
+    width: calc(100vw - 8rem);
+}
+
+.search-container {
+    height: fit-content;
+}
+
+.news-search-dropdown .ant-select-dropdown-menu-item-group-title {
+    color: #666;
+    font-weight: bold;
+}
+
+.news-search-dropdown .ant-select-dropdown-menu-item-group {
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.news-search-dropdown .ant-select-dropdown-menu-item {
+    padding-left: 16px;
+}
+
+.news-search-dropdown .ant-select-dropdown-menu-item.show-all {
+    text-align: center;
+    cursor: default;
+}
+
+.news-search-dropdown .ant-select-dropdown-menu {
+    max-height: 300px;
+}
