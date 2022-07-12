@@ -33,6 +33,7 @@ const SearchResults = ({
       }}
       style={{
         textAlign: "start",
+        padding: "1rem",
       }}
       dataSource={results}
       header={<h3>Results for {searchedText}</h3>}
